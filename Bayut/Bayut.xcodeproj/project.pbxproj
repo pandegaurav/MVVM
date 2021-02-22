@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC4EAA1225DFC93400CAD349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EAA1125DFC93400CAD349 /* AppDelegate.swift */; };
+		CC4EAA1425DFC93400CAD349 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EAA1325DFC93400CAD349 /* SceneDelegate.swift */; };
+		CC4EAA1625DFC93400CAD349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EAA1525DFC93400CAD349 /* ViewController.swift */; };
+		CC4EAA1925DFC93400CAD349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4EAA1725DFC93400CAD349 /* Main.storyboard */; };
+		CC4EAA1B25DFC93700CAD349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4EAA1A25DFC93700CAD349 /* Assets.xcassets */; };
+		CC4EAA1E25DFC93700CAD349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4EAA1C25DFC93700CAD349 /* LaunchScreen.storyboard */; };
+		CC4EAA2B25DFCB8400CAD349 /* BayutStuffModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EAA2A25DFCB8400CAD349 /* BayutStuffModel.swift */; };
+		CC4EAA2F25DFCC2000CAD349 /* BayutStuffViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EAA2E25DFCC2000CAD349 /* BayutStuffViewModel.swift */; };
+		CC4EAA3325DFCCA800CAD349 /* BayutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EAA3225DFCCA800CAD349 /* BayutService.swift */; };
+		CC4EAA3825DFCD6200CAD349 /* BayutStuffTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EAA3725DFCD6200CAD349 /* BayutStuffTableViewCell.swift */; };
+		CC4EAA3C25DFCDEA00CAD349 /* BayutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EAA3B25DFCDEA00CAD349 /* BayutViewController.swift */; };
+		CC4EAA3F25DFCE6900CAD349 /* BayutStuffTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EAA3E25DFCE6900CAD349 /* BayutStuffTableViewDataSource.swift */; };
+		CC4EAA5925DFF5ED00CAD349 /* BayutDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EAA5825DFF5ED00CAD349 /* BayutDetailsViewController.swift */; };
+		CC4EAA8F25DFFCB600CAD349 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4EAA8D25DFFCB600CAD349 /* MBProgressHUD.m */; };
+		CC4EAA9925E0AE9000CAD349 /* BayutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EAA9825E0AE9000CAD349 /* BayutTests.swift */; };
+		CC4EAAA325E0AF8B00CAD349 /* BayutNetworkTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EAAA225E0AF8B00CAD349 /* BayutNetworkTesting.swift */; };
+		CC4EAAA725E0B29600CAD349 /* BayutTableViewTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EAAA625E0B29600CAD349 /* BayutTableViewTesting.swift */; };
+		CC4EAAED25E17AF500CAD349 /* BayutViewControllerTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EAAEC25E17AF500CAD349 /* BayutViewControllerTesting.swift */; };
+		CC4EAB1325E18CB100CAD349 /* BayutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EAB1225E18CB100CAD349 /* BayutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC4EAA9B25E0AE9000CAD349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC4EAA0625DFC93400CAD349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4EAA0D25DFC93400CAD349;
+			remoteInfo = Bayut;
+		};
+		CC4EAB1525E18CB100CAD349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC4EAA0625DFC93400CAD349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4EAA0D25DFC93400CAD349;
+			remoteInfo = Bayut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC4EAA0E25DFC93400CAD349 /* Bayut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bayut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4EAA1125DFC93400CAD349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC4EAA1325DFC93400CAD349 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC4EAA1525DFC93400CAD349 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC4EAA1825DFC93400CAD349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC4EAA1A25DFC93700CAD349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC4EAA1D25DFC93700CAD349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC4EAA1F25DFC93700CAD349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4EAA2A25DFCB8400CAD349 /* BayutStuffModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayutStuffModel.swift; sourceTree = "<group>"; };
+		CC4EAA2E25DFCC2000CAD349 /* BayutStuffViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayutStuffViewModel.swift; sourceTree = "<group>"; };
+		CC4EAA3225DFCCA800CAD349 /* BayutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayutService.swift; sourceTree = "<group>"; };
+		CC4EAA3725DFCD6200CAD349 /* BayutStuffTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayutStuffTableViewCell.swift; sourceTree = "<group>"; };
+		CC4EAA3B25DFCDEA00CAD349 /* BayutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayutViewController.swift; sourceTree = "<group>"; };
+		CC4EAA3E25DFCE6900CAD349 /* BayutStuffTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayutStuffTableViewDataSource.swift; sourceTree = "<group>"; };
+		CC4EAA5825DFF5ED00CAD349 /* BayutDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayutDetailsViewController.swift; sourceTree = "<group>"; };
+		CC4EAA8C25DFFCB500CAD349 /* Bayut-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bayut-Bridging-Header.h"; sourceTree = "<group>"; };
+		CC4EAA8D25DFFCB600CAD349 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CC4EAA8E25DFFCB600CAD349 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CC4EAA9625E0AE9000CAD349 /* BayutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BayutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4EAA9825E0AE9000CAD349 /* BayutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayutTests.swift; sourceTree = "<group>"; };
+		CC4EAA9A25E0AE9000CAD349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4EAAA225E0AF8B00CAD349 /* BayutNetworkTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayutNetworkTesting.swift; sourceTree = "<group>"; };
+		CC4EAAA625E0B29600CAD349 /* BayutTableViewTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayutTableViewTesting.swift; sourceTree = "<group>"; };
+		CC4EAAEC25E17AF500CAD349 /* BayutViewControllerTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayutViewControllerTesting.swift; sourceTree = "<group>"; };
+		CC4EAB1025E18CB100CAD349 /* BayutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BayutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4EAB1225E18CB100CAD349 /* BayutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayutUITests.swift; sourceTree = "<group>"; };
+		CC4EAB1425E18CB100CAD349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4EAA0B25DFC93400CAD349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4EAA9325E0AE9000CAD349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4EAB0D25E18CB100CAD349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC4EAA0525DFC93400CAD349 = {
+			isa = PBXGroup;
+			children = (
+				CC4EAA1025DFC93400CAD349 /* Bayut */,
+				CC4EAA9725E0AE9000CAD349 /* BayutTests */,
+				CC4EAB1125E18CB100CAD349 /* BayutUITests */,
+				CC4EAA0F25DFC93400CAD349 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4EAA0F25DFC93400CAD349 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4EAA0E25DFC93400CAD349 /* Bayut.app */,
+				CC4EAA9625E0AE9000CAD349 /* BayutTests.xctest */,
+				CC4EAB1025E18CB100CAD349 /* BayutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4EAA1025DFC93400CAD349 /* Bayut */ = {
+			isa = PBXGroup;
+			children = (
+				CC4EAA3625DFCD2900CAD349 /* TableCell */,
+				CC4EAA3125DFCC8700CAD349 /* Service */,
+				CC4EAA2625DFC96500CAD349 /* Model */,
+				CC4EAA2725DFC97100CAD349 /* ViewModel */,
+				CC4EAA2825DFC97C00CAD349 /* Contoller */,
+				CC4EAA2925DFC99800CAD349 /* Common */,
+				CC4EAA1125DFC93400CAD349 /* AppDelegate.swift */,
+				CC4EAA1325DFC93400CAD349 /* SceneDelegate.swift */,
+				CC4EAA1725DFC93400CAD349 /* Main.storyboard */,
+				CC4EAA1525DFC93400CAD349 /* ViewController.swift */,
+				CC4EAA1A25DFC93700CAD349 /* Assets.xcassets */,
+				CC4EAA1C25DFC93700CAD349 /* LaunchScreen.storyboard */,
+				CC4EAA1F25DFC93700CAD349 /* Info.plist */,
+			);
+			path = Bayut;
+			sourceTree = "<group>";
+		};
+		CC4EAA2625DFC96500CAD349 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC4EAA2A25DFCB8400CAD349 /* BayutStuffModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC4EAA2725DFC97100CAD349 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CC4EAA2E25DFCC2000CAD349 /* BayutStuffViewModel.swift */,
+				CC4EAA3E25DFCE6900CAD349 /* BayutStuffTableViewDataSource.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CC4EAA2825DFC97C00CAD349 /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				CC4EAA3B25DFCDEA00CAD349 /* BayutViewController.swift */,
+				CC4EAA5825DFF5ED00CAD349 /* BayutDetailsViewController.swift */,
+			);
+			path = Contoller;
+			sourceTree = "<group>";
+		};
+		CC4EAA2925DFC99800CAD349 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CC4EAA8E25DFFCB600CAD349 /* MBProgressHUD.h */,
+				CC4EAA8D25DFFCB600CAD349 /* MBProgressHUD.m */,
+				CC4EAA8C25DFFCB500CAD349 /* Bayut-Bridging-Header.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CC4EAA3125DFCC8700CAD349 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CC4EAA3225DFCCA800CAD349 /* BayutService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CC4EAA3625DFCD2900CAD349 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC4EAA3725DFCD6200CAD349 /* BayutStuffTableViewCell.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		CC4EAA9725E0AE9000CAD349 /* BayutTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC4EAA9825E0AE9000CAD349 /* BayutTests.swift */,
+				CC4EAA9A25E0AE9000CAD349 /* Info.plist */,
+				CC4EAAA225E0AF8B00CAD349 /* BayutNetworkTesting.swift */,
+				CC4EAAA625E0B29600CAD349 /* BayutTableViewTesting.swift */,
+				CC4EAAEC25E17AF500CAD349 /* BayutViewControllerTesting.swift */,
+			);
+			path = BayutTests;
+			sourceTree = "<group>";
+		};
+		CC4EAB1125E18CB100CAD349 /* BayutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC4EAB1225E18CB100CAD349 /* BayutUITests.swift */,
+				CC4EAB1425E18CB100CAD349 /* Info.plist */,
+			);
+			path = BayutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4EAA0D25DFC93400CAD349 /* Bayut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4EAA2225DFC93800CAD349 /* Build configuration list for PBXNativeTarget "Bayut" */;
+			buildPhases = (
+				CC4EAA0A25DFC93400CAD349 /* Sources */,
+				CC4EAA0B25DFC93400CAD349 /* Frameworks */,
+				CC4EAA0C25DFC93400CAD349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bayut;
+			productName = Bayut;
+			productReference = CC4EAA0E25DFC93400CAD349 /* Bayut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC4EAA9525E0AE9000CAD349 /* BayutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4EAA9D25E0AE9000CAD349 /* Build configuration list for PBXNativeTarget "BayutTests" */;
+			buildPhases = (
+				CC4EAA9225E0AE9000CAD349 /* Sources */,
+				CC4EAA9325E0AE9000CAD349 /* Frameworks */,
+				CC4EAA9425E0AE9000CAD349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4EAA9C25E0AE9000CAD349 /* PBXTargetDependency */,
+			);
+			name = BayutTests;
+			productName = BayutTests;
+			productReference = CC4EAA9625E0AE9000CAD349 /* BayutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC4EAB0F25E18CB100CAD349 /* BayutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4EAB1725E18CB100CAD349 /* Build configuration list for PBXNativeTarget "BayutUITests" */;
+			buildPhases = (
+				CC4EAB0C25E18CB100CAD349 /* Sources */,
+				CC4EAB0D25E18CB100CAD349 /* Frameworks */,
+				CC4EAB0E25E18CB100CAD349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4EAB1625E18CB100CAD349 /* PBXTargetDependency */,
+			);
+			name = BayutUITests;
+			productName = BayutUITests;
+			productReference = CC4EAB1025E18CB100CAD349 /* BayutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4EAA0625DFC93400CAD349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CC4EAA0D25DFC93400CAD349 = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+					};
+					CC4EAA9525E0AE9000CAD349 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = CC4EAA0D25DFC93400CAD349;
+					};
+					CC4EAB0F25E18CB100CAD349 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = CC4EAA0D25DFC93400CAD349;
+					};
+				};
+			};
+			buildConfigurationList = CC4EAA0925DFC93400CAD349 /* Build configuration list for PBXProject "Bayut" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC4EAA0525DFC93400CAD349;
+			productRefGroup = CC4EAA0F25DFC93400CAD349 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4EAA0D25DFC93400CAD349 /* Bayut */,
+				CC4EAA9525E0AE9000CAD349 /* BayutTests */,
+				CC4EAB0F25E18CB100CAD349 /* BayutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC4EAA0C25DFC93400CAD349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4EAA1E25DFC93700CAD349 /* LaunchScreen.storyboard in Resources */,
+				CC4EAA1B25DFC93700CAD349 /* Assets.xcassets in Resources */,
+				CC4EAA1925DFC93400CAD349 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4EAA9425E0AE9000CAD349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4EAB0E25E18CB100CAD349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4EAA0A25DFC93400CAD349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4EAA3C25DFCDEA00CAD349 /* BayutViewController.swift in Sources */,
+				CC4EAA2F25DFCC2000CAD349 /* BayutStuffViewModel.swift in Sources */,
+				CC4EAA3825DFCD6200CAD349 /* BayutStuffTableViewCell.swift in Sources */,
+				CC4EAA1625DFC93400CAD349 /* ViewController.swift in Sources */,
+				CC4EAA3F25DFCE6900CAD349 /* BayutStuffTableViewDataSource.swift in Sources */,
+				CC4EAA1225DFC93400CAD349 /* AppDelegate.swift in Sources */,
+				CC4EAA3325DFCCA800CAD349 /* BayutService.swift in Sources */,
+				CC4EAA8F25DFFCB600CAD349 /* MBProgressHUD.m in Sources */,
+				CC4EAA2B25DFCB8400CAD349 /* BayutStuffModel.swift in Sources */,
+				CC4EAA5925DFF5ED00CAD349 /* BayutDetailsViewController.swift in Sources */,
+				CC4EAA1425DFC93400CAD349 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4EAA9225E0AE9000CAD349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4EAAA725E0B29600CAD349 /* BayutTableViewTesting.swift in Sources */,
+				CC4EAA9925E0AE9000CAD349 /* BayutTests.swift in Sources */,
+				CC4EAAED25E17AF500CAD349 /* BayutViewControllerTesting.swift in Sources */,
+				CC4EAAA325E0AF8B00CAD349 /* BayutNetworkTesting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4EAB0C25E18CB100CAD349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4EAB1325E18CB100CAD349 /* BayutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC4EAA9C25E0AE9000CAD349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC4EAA0D25DFC93400CAD349 /* Bayut */;
+			targetProxy = CC4EAA9B25E0AE9000CAD349 /* PBXContainerItemProxy */;
+		};
+		CC4EAB1625E18CB100CAD349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC4EAA0D25DFC93400CAD349 /* Bayut */;
+			targetProxy = CC4EAB1525E18CB100CAD349 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC4EAA1725DFC93400CAD349 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4EAA1825DFC93400CAD349 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC4EAA1C25DFC93700CAD349 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4EAA1D25DFC93700CAD349 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC4EAA2025DFC93800CAD349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC4EAA2125DFC93800CAD349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC4EAA2325DFC93800CAD349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WS4267M56M;
+				INFOPLIST_FILE = Bayut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bayut.demo.Bayut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bayut/Common/Bayut-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC4EAA2425DFC93800CAD349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WS4267M56M;
+				INFOPLIST_FILE = Bayut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bayut.demo.Bayut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bayut/Common/Bayut-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC4EAA9E25E0AE9000CAD349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WS4267M56M;
+				INFOPLIST_FILE = BayutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bayut.demo.BayutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bayut.app/Bayut";
+			};
+			name = Debug;
+		};
+		CC4EAA9F25E0AE9000CAD349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WS4267M56M;
+				INFOPLIST_FILE = BayutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bayut.demo.BayutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bayut.app/Bayut";
+			};
+			name = Release;
+		};
+		CC4EAB1825E18CB100CAD349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WS4267M56M;
+				INFOPLIST_FILE = BayutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bayut.demo.BayutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bayut;
+			};
+			name = Debug;
+		};
+		CC4EAB1925E18CB100CAD349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WS4267M56M;
+				INFOPLIST_FILE = BayutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bayut.demo.BayutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bayut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4EAA0925DFC93400CAD349 /* Build configuration list for PBXProject "Bayut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4EAA2025DFC93800CAD349 /* Debug */,
+				CC4EAA2125DFC93800CAD349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4EAA2225DFC93800CAD349 /* Build configuration list for PBXNativeTarget "Bayut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4EAA2325DFC93800CAD349 /* Debug */,
+				CC4EAA2425DFC93800CAD349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4EAA9D25E0AE9000CAD349 /* Build configuration list for PBXNativeTarget "BayutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4EAA9E25E0AE9000CAD349 /* Debug */,
+				CC4EAA9F25E0AE9000CAD349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4EAB1725E18CB100CAD349 /* Build configuration list for PBXNativeTarget "BayutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4EAB1825E18CB100CAD349 /* Debug */,
+				CC4EAB1925E18CB100CAD349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC4EAA0625DFC93400CAD349 /* Project object */;
+}
